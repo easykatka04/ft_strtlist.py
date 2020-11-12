@@ -3,4 +3,3 @@ def ft_sumlst(a):
     for i in a:
         b += i
     return b
-  
