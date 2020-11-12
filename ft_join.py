@@ -5,12 +5,10 @@ def ft_len(a):
     return b
 
 
-def ft_join(a, b):
+def ft_join(a, b=" "):
     c = ""
-    d = 0
-    if b == "":
-        b = " "
-    while d != ft_len(a):
-        c += str(a[d]) + b
-        d += 1
+    for i in range(ft_len(a) - 1):
+        c += str(a[i])
+        c += b
+    c += str(a[-1])
     return c
