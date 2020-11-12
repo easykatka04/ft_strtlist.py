@@ -4,4 +4,3 @@ def ft_sum_even_part_lst(a):
         if i % 2 == 0:
             b += i
     return b
-  
