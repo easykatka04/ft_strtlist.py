@@ -6,4 +6,3 @@ def ft_rmstrspc(a):
         elif i == " ":
             b += ""
     return b
-  
