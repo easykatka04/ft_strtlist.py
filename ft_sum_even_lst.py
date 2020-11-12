@@ -10,4 +10,3 @@ def ft_sum_even_lst(a):
     for i in range(0, ft_len(a) + 1, 2):
         b += i
     return b
-  
